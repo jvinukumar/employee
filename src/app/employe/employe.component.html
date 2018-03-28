@@ -1,0 +1,33 @@
+<!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link "  href="javascript.void()" routerLink="read"  >Read</a>
+  </li>
+  <li class="nav-item ">
+      <a class="nav-link" href="javascript.void()"  routerLink="create">Create</a>
+    </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="javascript.void()"  routerLink="update" >Update</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="delete-tab" data-toggle="tab" href="#delete" role="tab" aria-controls="delete" aria-selected="false">Delete</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="test-tab" data-toggle="tab" href="#test" role="tab" aria-controls="test" aria-selected="false">Test</a>
+  </li>
+
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+
+ -->
+<!-- <p>emp works</p> -->
+
+<ul>
+  <li *ngFor="let person of people">{{ person.firstName }} {{ person.lastName }}</li>
+</ul>
+
+<button type="button" class="btn btn-primary" (click)="addMore()" >Add one more Vinod</button>
